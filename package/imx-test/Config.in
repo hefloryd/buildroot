@@ -1,0 +1,8 @@
+config BR2_PACKAGE_IMX_TEST
+	bool "imx-test"
+        depends on BR2_PACKAGE_IMX_VPU
+        depends on BR2_PACKAGE_IMX_LIB
+	help
+	  Build imx-test
+
+	  https://github.com/Freescale
